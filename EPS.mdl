@@ -26728,7 +26728,6 @@ Whether or not policies are ENABLED, changes in specific industries (from the va
 25:2050
 26:2050
 6:agriculture
-6:aircraft
 6:appliances
 6:avoid F gases
 6:battery electric vehicle
@@ -26990,7 +26989,6 @@ Whether or not policies are ENABLED, changes in specific industries (from the va
 6:hard coal newly built
 6:hard coal preexisting nonretiring
 6:hard coal preexisting retiring
-6:HDVs
 6:heat
 6:heat bf
 6:heat convert hard coal use
@@ -27027,7 +27025,6 @@ Whether or not policies are ENABLED, changes in specific industries (from the va
 6:land forest restoration
 6:land forest set asides
 6:land peatland restoration
-6:LDVs
 6:lighting
 6:lignite
 6:lignite es
@@ -27039,7 +27036,6 @@ Whether or not policies are ENABLED, changes in specific industries (from the va
 6:methane destruction
 6:methane recovery
 6:mining
-6:motorbikes
 6:N2O
 6:natural gas
 6:natural gas and petroleum systems
@@ -27075,7 +27071,6 @@ Whether or not policies are ENABLED, changes in specific industries (from the va
 6:onshore wind preexisting retiring
 6:other component
 6:other industries
-6:passenger
 6:petroleum and natural gas suppliers
 6:petroleum diesel
 6:petroleum diesel bf
@@ -27129,7 +27124,6 @@ Whether or not policies are ENABLED, changes in specific industries (from the va
 6:Schedule7
 6:Schedule8
 6:Schedule9
-6:ships
 6:solar
 6:solar PV es
 6:solar PV newly built

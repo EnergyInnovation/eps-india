@@ -1,0 +1,7 @@
+Vehicle type,government,industry,consumers
+LDVs,0,1,0
+HDVs,0.100,0.900,0
+aircraft,0,1,0
+rail,1,0,0
+ships,0,1,0
+motorbikes,0,0,1

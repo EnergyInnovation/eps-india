@@ -1,14 +1,17 @@
-,Normalized St Dev
-hard coal,0.692723472
-natural gas nonpeaker,0.692723472
-nuclear,0.132072134
+,Normalized St Dev (dimensionless)
+hard coal,0.234838231
+natural gas nonpeaker,0.231027003
+nuclear,0.03791536
 hydro,0
 wind,0
 solar PV,0
 solar thermal,0
-biomass,0.592789894
+biomass,0.216581266
 geothermal,0
-petroleum,0.143191898
-natural gas peaker,0.321176521
-lignite,0.457296149
+petroleum,0.231027003
+natural gas peaker,0.227106096
+lignite,0.199167397
 offshore wind,0
+crude oil,0.231027003
+heavy or residual fuel oil,0.231027003
+municipal solid waste,0.216581266

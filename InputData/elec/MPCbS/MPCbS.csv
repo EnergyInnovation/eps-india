@@ -3,7 +3,7 @@ hard coal,9000000000000
 natural gas nonpeaker,9000000000000
 nuclear,9000000000000
 hydro,163000
-onshore wind,3121000
+onshore wind,2760000
 solar PV,1400000
 solar thermal,1400000
 biomass,25090
@@ -12,4 +12,6 @@ petroleum,9000000000000
 natural gas peaker,9000000000000
 lignite,9000000000000
 offshore wind,500000
-,
+crude oil,9000000000000
+heavy or residual fuel oil,9000000000000
+municipal solid waste,3000

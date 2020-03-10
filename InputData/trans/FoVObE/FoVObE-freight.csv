@@ -1,7 +1,7 @@
-Vehicle type,government,industry,consumers
-LDVs,0,1,0
-HDVs,0.100,0.900,0
-aircraft,0,1,0
-rail,1,0,0
-ships,0,1,0
-motorbikes,0,0,1
+Fraction Owned by Entity (dimensionless),government,nonenergy industries,labor and consumers,foreign entities,electricity suppliers,coal suppliers,natural gas and petroleum suppliers,biomass and biofuel suppliers,other energy suppliers
+LDVs,0.000,0.800,0.000,0.000,0.040,0.040,0.040,0.040,0.040
+HDVs,0.100,0.900,0.000,0.000,0.100,0.100,0.100,0.100,0.100
+aircraft,0.140,0.860,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+rail,1.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+ships,0.000,1.000,0.000,0.000,0.040,0.040,0.040,0.040,0.040
+motorbikes,0.000,0.200,0.800,0.000,0.000,0.000,0.000,0.000,0.000

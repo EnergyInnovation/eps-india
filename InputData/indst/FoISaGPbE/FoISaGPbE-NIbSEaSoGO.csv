@@ -1,0 +1,17 @@
+Nonenergy Inputs as Share of Output (dimensionless),government,nonenergy industries,labor and consumers,foreign entities,electricity suppliers,coal suppliers,natural gas and petroleum suppliers,biomass and biofuel suppliers,other energy suppliers
+Cement and other carbonate use,0.237,0.324,0.269,0.059,0,0,0,0,0
+Natural gas and petroleum systems,0.289,0.302,0.055,0.269,0,0,0,0,0
+Iron and steel,0.102,0.433,0.202,0.065,0,0,0,0,0
+Chemicals,0.043,0.486,0.151,0.096,0,0,0,0,0
+Coal mining,0.002,0.202,0.283,0.017,0,0,0,0,0
+Waste management,0.000,0,0,0,0,0,0,0,0
+Agriculture,-0.004,0.136,0.479,0.018,0,0,0,0,0
+Other industries,0.078,0.492,0.255,0.078,0,0,0,0,0
+,,,,,,,,,
+,,,,,,,,,
+"These rows are intended to sum to less than one, as they are inputs as a share of gross output (e.g. ignoring value added)",,,,,,,,,
+"These are shares of non-energy inputs, so we assign zeroes to all energy supplier cash flow entities.",,,,,,,,,
+"Note: In India's case, the Nat gas & Petrol sys row sums up to slightly greater than 1. This is most likely due to the difference",,,,,,,,,
+"in classification of the industries in the KLEMS database, from which the input shares are sourced (KLEMS database",,,,,,,,,
+also includes nuclear and coke in the classification). We hence adjust for this by assuming only 80% of each of the shares derived ,,,,,,,,,
+from KLEMS in the Nat Gas and Petroleum Systems category.,,,,,,,,,

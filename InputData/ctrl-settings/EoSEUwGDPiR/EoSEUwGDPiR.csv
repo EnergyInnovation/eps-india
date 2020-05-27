@@ -1,9 +1,9 @@
 Unit: dimensionless,Elasticity
-transportation sector,0.96
-electricity sector,0.05
-residential buildings sector,0.13
-commercial buildings sector,0.09
-industry sector,0.37
+transportation sector,6.02
+electricity sector,0.31
+residential buildings sector,0.79
+commercial buildings sector,0.55
+industry sector,2.34
 district heat and hydrogen sector (NOT USED),0
 LULUCF sector (NOT USED),0
 geoengineering sector (NOT USED),0

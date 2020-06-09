@@ -8,5 +8,7 @@ We would like to acknowledge the following people who helped adapt the Energy Po
 * Apurba Mitra, WRI India
 * Emily Mangan, WRI
 * Jeffrey Rissman, Energy Innovation LLC
+* Megan Mahajan, Energy Innovation LLC
 * Kamna Mahendra, TERI
 * Robbie Orvis, Energy Innovation LLC
+* Deepthi Swamy, WRI India

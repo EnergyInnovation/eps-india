@@ -4,6 +4,11 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
+### **2.1.1 - June 9, 2020**
+
+* Updated to version 2.1.1
+
+
 ### **1.4.2-v3 - June 10, 2019**
 
 * Fixed fixed an error where building components energy use was under-reported (bldgs/BCEU)

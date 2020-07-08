@@ -4,6 +4,13 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
+### **2.1.2 - July 9, 2020**
+
+* Fixed minor formula error in variable "Potential RPS Qualifying Electricity Output" and its BAU equivalent
+* Updated scaling methodology in indst/BIFUbC and bldgs/BCEU
+* Adjusted values in elec/SYC, elec/BCRbQ, elec/BPMCCS, and elec/BRPSPTY to align model outputs with historical 2018 and 2019 data
+* Adjusted qualifying sources for the Clean Electricity Standard policy and enabled the "Expand Carbon-free Electricity Standard Qualifying Definitions"
+
 ### **2.1.1 - June 9, 2020**
 
 * Updated to version 2.1.1
@@ -11,7 +18,7 @@ This page tracks updates that have been made with each version of the India Ener
 
 ### **1.4.2-v3 - June 10, 2019**
 
-* Fixed fixed an error where building components energy use was under-reported (bldgs/BCEU)
+* Fixed an error where building components energy use was under-reported (bldgs/BCEU)
 * Fixed transposed "Consumers" and "Other Industries" labels on "Direct Cash Flow Changes (by Actor)" graph in web app 
 
 ### **1.4.2-v2 - Dec 21, 2018**

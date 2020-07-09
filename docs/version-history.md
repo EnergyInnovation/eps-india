@@ -4,7 +4,7 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
-### **2.1.2 - July 9, 2020**
+### **2.1.2 - July 10, 2020**
 
 * Fixed minor formula error in variable "Potential RPS Qualifying Electricity Output" and its BAU equivalent
 * Updated scaling methodology in indst/BIFUbC and bldgs/BCEU

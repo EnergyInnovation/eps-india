@@ -38116,10 +38116,9 @@ Macro Effects involve partitioning the total change in output (calculated from t
 Revenue changes for fuel-supplying cash flow entities should be the same after allocating them to ISIC codes.
 ///---\\\
 :L<%^E!@
-1:NoSettings.vdfx
 1:MostRecentRun.vdfx
 8:GraphDefinitions.vgd
-9:NoSettings
+9:MostRecentRun
 22:$,Dollar,Dollars,$s
 22:acre,acres
 22:btu,btus
@@ -38151,7 +38150,7 @@ Revenue changes for fuel-supplying cash flow entities should be the same after a
 27:0,
 34:0,
 4:Time
-5:Output Total CO2e Emissions
+5:BObIC BAU Output by ISIC Code[ISIC Code]
 35:Date
 36:YYYY-MM-DD
 37:2000

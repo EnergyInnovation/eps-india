@@ -1,17 +1,17 @@
 Electricity Source,Decommissioning Cost ($/MW)
-hard coal,111924
-natural gas nonpeaker,14349
-nuclear,740897
-hydro,653882
-onshore wind,48787
-solar PV,54527
-solar thermal,89922
-biomass,111924
-geothermal,653882
-petroleum,29655
-natural gas peaker,14349
-lignite,111924
-offshore wind,202802
-crude oil,29655
-heavy or residual fuel oil,29655
-municipal solid waste,111924
+hard coal,3620
+natural gas nonpeaker,464
+nuclear,23966
+hydro,21151
+onshore wind,1578
+solar PV,1764
+solar thermal,2909
+biomass,3620
+geothermal,684
+petroleum,959
+natural gas peaker,464
+lignite,3620
+offshore wind,6560
+crude oil,31
+heavy or residual fuel oil,31
+municipal solid waste,117

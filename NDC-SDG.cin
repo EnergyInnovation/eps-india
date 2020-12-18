@@ -35,7 +35,6 @@ Percentage Improvement in Eqpt Efficiency Standards above BAU[cement and other c
 Percentage Improvement in Eqpt Efficiency Standards above BAU[cement and other carbonates,LPG propane or butane if] = 0.1
 Percentage Improvement in Eqpt Efficiency Standards above BAU[natural gas and petroleum systems,hard coal if] = 0.15
 Percentage Improvement in Eqpt Efficiency Standards above BAU[natural gas and petroleum systems,natural gas if] = 0.15
-Percentage Improvement in Eqpt Efficiency Standards above BAU[natural gas and petroleum systems,LPG propane or butane if] = 0.15
 Percentage Improvement in Eqpt Efficiency Standards above BAU[iron and steel,hard coal if] = 0.15
 Percentage Improvement in Eqpt Efficiency Standards above BAU[iron and steel,natural gas if] = 0.15
 Percentage Improvement in Eqpt Efficiency Standards above BAU[iron and steel,LPG propane or butane if] = 0.15
@@ -44,13 +43,6 @@ Percentage Improvement in Eqpt Efficiency Standards above BAU[chemicals,natural 
 Percentage Improvement in Eqpt Efficiency Standards above BAU[chemicals,LPG propane or butane if] = 0.1
 Percentage Improvement in Eqpt Efficiency Standards above BAU[coal mining,hard coal if] = 0.33
 Percentage Improvement in Eqpt Efficiency Standards above BAU[coal mining,natural gas if] = 0.33
-Percentage Improvement in Eqpt Efficiency Standards above BAU[coal mining,LPG propane or butane if] = 0.33
-Percentage Improvement in Eqpt Efficiency Standards above BAU[waste management,hard coal if] = 0.33
-Percentage Improvement in Eqpt Efficiency Standards above BAU[waste management,natural gas if] = 0.33
-Percentage Improvement in Eqpt Efficiency Standards above BAU[waste management,LPG propane or butane if] = 0.33
-Percentage Improvement in Eqpt Efficiency Standards above BAU[agriculture,hard coal if] = 0.25
-Percentage Improvement in Eqpt Efficiency Standards above BAU[agriculture,natural gas if] = 0.25
-Percentage Improvement in Eqpt Efficiency Standards above BAU[agriculture,LPG propane or butane if] = 0.25
 Percentage Improvement in Eqpt Efficiency Standards above BAU[other industries,hard coal if] = 0.1
 Percentage Improvement in Eqpt Efficiency Standards above BAU[other industries,natural gas if] = 0.1
 Percentage Improvement in Eqpt Efficiency Standards above BAU[other industries,LPG propane or butane if] = 0.1

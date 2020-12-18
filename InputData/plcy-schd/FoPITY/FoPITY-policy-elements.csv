@@ -304,6 +304,38 @@ elec capacity construction subsidy X offshore wind es
 elec capacity construction subsidy X crude oil es
 elec capacity construction subsidy X heavy or residual fuel oil es
 elec capacity construction subsidy X municipal solid waste es
+elec non BAU retirement schedule X hard coal es
+elec non BAU retirement schedule X natural gas nonpeaker es
+elec non BAU retirement schedule X nuclear es
+elec non BAU retirement schedule X hydro es
+elec non BAU retirement schedule X onshore wind es
+elec non BAU retirement schedule X solar PV es
+elec non BAU retirement schedule X solar thermal es
+elec non BAU retirement schedule X biomass es
+elec non BAU retirement schedule X geothermal es
+elec non BAU retirement schedule X petroleum es
+elec non BAU retirement schedule X natural gas peaker es
+elec non BAU retirement schedule X lignite es
+elec non BAU retirement schedule X offshore wind es
+elec non BAU retirement schedule X crude oil es
+elec non BAU retirement schedule X heavy or residual fuel oil es
+elec non BAU retirement schedule X municipal solid waste es
+elec CCS X hard coal es
+elec CCS X natural gas nonpeaker es
+elec CCS X nuclear es
+elec CCS X hydro es
+elec CCS X onshore wind es
+elec CCS X solar PV es
+elec CCS X solar thermal es
+elec CCS X biomass es
+elec CCS X geothermal es
+elec CCS X petroleum es
+elec CCS X natural gas peaker es
+elec CCS X lignite es
+elec CCS X offshore wind es
+elec CCS X crude oil es
+elec CCS X heavy or residual fuel oil es
+elec CCS X municipal solid waste es
 bldgs rebate X heating
 bldgs rebate X cooling and ventilation
 bldgs rebate X envelope
@@ -569,6 +601,22 @@ indst reduce fossil fuel exports X heavy or residual fuel oil
 indst reduce fossil fuel exports X LPG propane or butane
 indst reduce fossil fuel exports X municipal solid waste
 indst reduce fossil fuel exports X hydrogen
+indst CCS X cement and other carbonates X energy related emissions
+indst CCS X cement and other carbonates X process emissions
+indst CCS X natural gas and petroleum systems X energy related emissions
+indst CCS X natural gas and petroleum systems X process emissions
+indst CCS X iron and steel X energy related emissions
+indst CCS X iron and steel X process emissions
+indst CCS X chemicals X energy related emissions
+indst CCS X chemicals X process emissions
+indst CCS X coal mining X energy related emissions
+indst CCS X coal mining X process emissions
+indst CCS X waste management X energy related emissions
+indst CCS X waste management X process emissions
+indst CCS X agriculture X energy related emissions
+indst CCS X agriculture X process emissions
+indst CCS X other industries X energy related emissions
+indst CCS X other industries X process emissions
 cross fuel tax X electricity
 cross fuel tax X hard coal
 cross fuel tax X natural gas
@@ -619,14 +667,6 @@ cross reduce BAU subsidies X heavy or residual fuel oil
 cross reduce BAU subsidies X LPG propane or butane
 cross reduce BAU subsidies X municipal solid waste
 cross reduce BAU subsidies X hydrogen
-cross CCS X transportation sector
-cross CCS X electricity sector
-cross CCS X residential buildings sector
-cross CCS X commercial buildings sector
-cross CCS X industry sector
-cross CCS X district heat and hydrogen sector
-cross CCS X LULUCF sector
-cross CCS X geoengineering sector
 cross toggle whether policies affect energy prices X electricity
 cross toggle whether policies affect energy prices X hard coal
 cross toggle whether policies affect energy prices X natural gas

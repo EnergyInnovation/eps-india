@@ -158,13 +158,13 @@ elec generation subsidy,nuclear es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,hydro es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,onshore wind es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,solar PV es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-elec generation subsidy,solar thermal es,,,0,0,0.5,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.2,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,0
-elec generation subsidy,biomass es,,,0,0,0.5,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.2,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,0
+elec generation subsidy,solar thermal es,,,0,0,0.5,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+elec generation subsidy,biomass es,,,0,0,0.5,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 elec generation subsidy,geothermal es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,petroleum es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,natural gas peaker es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,lignite es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-elec generation subsidy,offshore wind es,,,0,0,1,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.2,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,#VALUE!,0
+elec generation subsidy,offshore wind es,,,0,0,1,1,1,1,1,1,1,1,1,1,0.8,0.6,0.4,0.2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 elec generation subsidy,crude oil es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,heavy or residual fuel oil es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 elec generation subsidy,municipal solid waste es,,,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1

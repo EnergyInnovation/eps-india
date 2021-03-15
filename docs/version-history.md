@@ -4,7 +4,7 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
-### **3.1.3 - March 5, 2021**
+### **3.1.3 - March 15, 2021**
 
 * Updated to model platform 3.1.3
 * Added pumped hydro as a power plant type

@@ -4,6 +4,11 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
+### **3.1.3.1 - April 1, 2021**
+
+* Bug fix to clean up overlapping text on EPS.vpmx file
+* Update to BAU GDP projections
+
 ### **3.1.3 - March 15, 2021**
 
 * Updated to model platform 3.1.3

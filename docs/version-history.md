@@ -4,6 +4,11 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
+### **3.1.3.2 - April 6, 2021**
+
+* Edit to NDC target displayed in the web app
+* Bug fix for district heat and hydrogen sector fuel prices
+
 ### **3.1.3.1 - April 1, 2021**
 
 * Bug fix to clean up overlapping text on EPS.vpmx file

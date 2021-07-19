@@ -4,6 +4,14 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
+### **3.1.3.3 - July 19, 2021**
+
+* Bug fix to currency conversion for output graphs
+* Bug fix to hydrogen BTU conversion factor
+* Bug fix to projected coal production, imports, and exports calculations in fuels/BFPIaE
+* Update fuel prices in fuels/BFPaT based on more recent data and to better reflect the contribution of higher-priced imports
+* Update to mode shifting assumptions in trans/RTMF
+
 ### **3.1.3.2 - April 6, 2021**
 
 * Edit to NDC target displayed in the web app

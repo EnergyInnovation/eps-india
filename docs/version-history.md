@@ -4,7 +4,7 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
-### **3.1.3.4 - August 4, 2021**
+### **3.1.3.4 - August 5, 2021**
 
 * Updates to default scenarios
 * Change output units on several graphs from crores to lakh crores

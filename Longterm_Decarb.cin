@@ -40,7 +40,6 @@ Percent of Travel Demand Shifted to Other Modes or Eliminated[freight,HDVs] = 0.
 Fraction of New Bldg Components Shifted to Other Fuels[appliances,urban residential] = 0.8
 Fraction of New Bldg Components Shifted to Other Fuels[lighting,rural residential] = 1
 Fraction of New Bldg Components Shifted to Other Fuels[appliances,rural residential] = 0.5
-Fraction of New Bldg Components Shifted to Other Fuels[lighting,commercial] = 1
 Fraction of New Bldg Components Shifted to Other Fuels[appliances,commercial] = 0.8
 Reduction in E Use Allowed by Component Eff Std[cooling and ventilation,urban residential] = 0.4
 Reduction in E Use Allowed by Component Eff Std[envelope,urban residential] = 0.3

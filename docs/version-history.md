@@ -4,6 +4,12 @@ title:	"India EPS Version History"
 ---
 This page tracks updates that have been made with each version of the India Energy Policy Simulator.
 
+### **3.1.3.5 - September 2, 2022**
+
+* Updates to energy and service demand to reflect the low GDP growth pathway from the India Energy Security Scenarios rather than the higher GDP growth pathway used previously
+* Various data improvements, including an updated methodology to calibrate start year energy consumption in the transportation and industry sectors
+* Minor edits to web app guidance text and updated NDC targets
+
 ### **3.1.3.4 - August 5, 2021**
 
 * Updates to default scenarios

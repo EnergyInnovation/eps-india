@@ -1,10 +1,5 @@
-,Cost ($/MW)
-government,907
-nonenergy industries,907
-labor and consumers,1472
+Unit: $/MW,Cost
+government,23383
+domestic industries,23383
+labor and consumers,37946
 foreign entities,0
-electricity suppliers,907
-coal suppliers,907
-natural gas and petroleum suppliers,907
-biomass and biofuel suppliers,907
-other energy suppliers,907

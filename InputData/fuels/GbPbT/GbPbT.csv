@@ -1,12 +1,12 @@
-Pollutant,twenty years,one hundred years
+﻿Global Warming Potential (g CO2e/g pollutant),twenty years,one hundred years
 CO2,1,1
-VOC,27.8,8.8
-CO,5.7,1.8
+VOC,0,0
+CO,0,0
 NOx,0,0
 PM10,0,0
 PM25,0,0
 SOx,0,0
-BC,1200,345
+BC,0,0
 OC,0,0
 CH4,84,28
 N2O,264,265

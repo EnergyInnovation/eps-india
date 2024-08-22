@@ -3996,73 +3996,6 @@ BAU Retiring Vehicles Summed Across Technologies[Vehicle Type,Cargo Type]=
 	~		~	:SUPPLEMENTARY 
 	|
 
-BAU RPS Percentage by Year[Year2019]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2019) ~~|
-BAU RPS Percentage by Year[Year2020]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2020) ~~|
-BAU RPS Percentage by Year[Year2021]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2021) ~~|
-BAU RPS Percentage by Year[Year2022]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2022) ~~|
-BAU RPS Percentage by Year[Year2023]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2023) ~~|
-BAU RPS Percentage by Year[Year2024]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2024) ~~|
-BAU RPS Percentage by Year[Year2025]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2025) ~~|
-BAU RPS Percentage by Year[Year2026]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2026) ~~|
-BAU RPS Percentage by Year[Year2027]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2027) ~~|
-BAU RPS Percentage by Year[Year2028]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2028) ~~|
-BAU RPS Percentage by Year[Year2029]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2029) ~~|
-BAU RPS Percentage by Year[Year2030]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2030) ~~|
-BAU RPS Percentage by Year[Year2031]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2031) ~~|
-BAU RPS Percentage by Year[Year2032]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2032) ~~|
-BAU RPS Percentage by Year[Year2033]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2033) ~~|
-BAU RPS Percentage by Year[Year2034]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2034) ~~|
-BAU RPS Percentage by Year[Year2035]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2035) ~~|
-BAU RPS Percentage by Year[Year2036]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2036) ~~|
-BAU RPS Percentage by Year[Year2037]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2037) ~~|
-BAU RPS Percentage by Year[Year2038]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2038) ~~|
-BAU RPS Percentage by Year[Year2039]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2039) ~~|
-BAU RPS Percentage by Year[Year2040]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2040) ~~|
-BAU RPS Percentage by Year[Year2041]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2041) ~~|
-BAU RPS Percentage by Year[Year2042]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2042) ~~|
-BAU RPS Percentage by Year[Year2043]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2043) ~~|
-BAU RPS Percentage by Year[Year2044]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2044) ~~|
-BAU RPS Percentage by Year[Year2045]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2045) ~~|
-BAU RPS Percentage by Year[Year2046]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2046) ~~|
-BAU RPS Percentage by Year[Year2047]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2047) ~~|
-BAU RPS Percentage by Year[Year2048]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2048) ~~|
-BAU RPS Percentage by Year[Year2049]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2049) ~~|
-BAU RPS Percentage by Year[Year2050]=
-	GET DATA AT TIME(BRPSPTY BAU Renewable Portfolio Std Percentage This Year, 2050)
-	~	Dmnl
-	~		|
-
 BAU RPS Qualifying Percentage of Elec Demand to Seek This Year=
 	IF THEN ELSE(
 	
@@ -4094,7 +4027,7 @@ BAU Slope of Line Approaching Future RPS Percentages by Year[Future Year]=
 	
 	  -9999,
 	
-	  (BAU RPS Percentage by Year[Future Year]
+	  (BRPSPTY BAU Renewable Portfolio Std Percentage This Year[Future Year]
 	    - BAU RPS Qualifying Share of Elec Demand after Net Imports)
 	  / (Numerical Future Year Definitions[Future Year] - Time + 1) * One Year
 	
@@ -7281,15 +7214,18 @@ BRESaC Retrofitting Cost per Unit Energy Saved[Building Type,Building Component]
 	~	$/BTU
 	~		|
 
-BRPSPTY BAU Renewable Portfolio Std Percentage This Year:=
-	GET DIRECT DATA(
+BRPSPTY BAU Renewable Portfolio Std Percentage This Year[Future Year]=
+	GET DIRECT CONSTANTS(
 	   'InputData/elec/BRPSPTY/BRPSPTY.csv',
 	   ',',
-	   '1',
 	   'B2'
 	)
 	~	Dmnl
-	~		|
+	~	This is not a true time-series data variable.  It uses "GET DIRECT \
+		CONSTANTS" (not "GET DIRECT DATA") to load values into the subscript \
+		"Future Year," effectively a synthetic time axis, used because electricity \
+		suppliers sometimes have foresight to future RPS values.
+	|
 
 BS BAU Subsidy for Thermal Fuels per Energy Unit Produced[All Fuels]:=
 	GET DIRECT DATA(
@@ -17663,115 +17599,115 @@ Maximum Possible LCFS Percentage=
 MCGLT Max Capacity Growth Lookup Table[hard coal es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '1',
 	   'C2'
 	) ~~|
-MCGLT Max Capacity Growth Lookup Table[natural gas nonpeaker es](
+MCGLT Max Capacity Growth Lookup Table[natural gas nonpeaker es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '3',
 	   'C4'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[nuclear es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[nuclear es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '5',
 	   'C6'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[hydro es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[hydro es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '7',
 	   'C8'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[onshore wind es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[onshore wind es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '9',
 	   'C10'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[solar PV es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[solar PV es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '11',
 	   'C12'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[solar thermal es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[solar thermal es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '13',
 	   'C14'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[biomass es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[biomass es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '15',
 	   'C16'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[geothermal es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[geothermal es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '17',
 	   'C18'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[petroleum es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[petroleum es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '19',
 	   'C20'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[natural gas peaker es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[natural gas peaker es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '21',
 	   'C22'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[lignite es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[lignite es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '23',
 	   'C24'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[offshore wind es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[offshore wind es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '25',
 	   'C26'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[crude oil es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[crude oil es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '27',
 	   'C28'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[heavy or residual fuel oil es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[heavy or residual fuel oil es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '29',
 	   'C30'
-	)) ~~|
-MCGLT Max Capacity Growth Lookup Table[municipal solid waste es](
+	) ~~|
+MCGLT Max Capacity Growth Lookup Table[municipal solid waste es]=
 	GET DIRECT LOOKUPS(
 	   'InputData/elec/MCGLT/MCGLT.csv',
-	   '',
+	   ',',
 	   '31',
 	   'C32'
-	))
+	)
 	~	MW
 	~		|
 
@@ -25004,7 +24940,7 @@ RPS Percentage by Year[Future Year]=
 	  1,
 	
 	  MAX(
-	    BAU RPS Percentage by Year[Future Year],
+	    BRPSPTY BAU Renewable Portfolio Std Percentage This Year[Future Year],
 	    RPS Percentage by Year from Policy Setting[Future Year]
 	  )
 	)
@@ -25623,7 +25559,7 @@ Slope of Line Approaching Future RPS Percentages by Year[Future Year]=
 	  IF THEN ELSE(
 	    Do Producers Have Foresight to Future Additional RPS Values = 0,
 	
-	    (BAU RPS Percentage by Year[Future Year]
+	    (BRPSPTY BAU Renewable Portfolio Std Percentage This Year[Future Year]
 	      - RPS Qualifying Share of Elec Demand after Net Imports)
 	    / (Numerical Future Year Definitions[Future Year] - Time + 1) * One Year,
 	

@@ -4774,7 +4774,7 @@ BAU Usable Flexibility Points=
 
 BAU Vehicle Technology Priority Profile[Vehicle Type,Cargo Type,Vehicle Technology,ptype\
 		]=
-	13 ~~|
+	3 ~~|
 BAU Vehicle Technology Priority Profile[Vehicle Type,Cargo Type,Vehicle Technology,ppriority\
 		]=
 	-BAU NPV of Lifetime Vehicle Cost[Vehicle Type,Cargo Type,Vehicle Technology]
@@ -27474,7 +27474,7 @@ Vehicle Technology:
 
 Vehicle Technology Priority Profile[Vehicle Type,Cargo Type,Vehicle Technology,ptype]\
 		=
-	13 {ptype: normal distribution, integer-only allocation} ~~|
+	3 {ptype: normal distribution, integer-only allocation} ~~|
 Vehicle Technology Priority Profile[Vehicle Type,Cargo Type,Vehicle Technology,ppriority\
 		]=
 	-NPV of Lifetime Vehicle Cost[Vehicle Type,Cargo Type,Vehicle Technology]

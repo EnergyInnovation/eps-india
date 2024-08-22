@@ -8036,12 +8036,12 @@ Carbon Tax Rate[Sectors]=
 	~	$/metric ton CO2e
 	~		|
 
-Cargo Dist Increases due to Mode Shifting[Target Vehicle Type,Cargo Type]=
+Cargo Dist Increases due to Mode Shifting[AA Vehicle Type,Cargo Type]=
 	SUM(
 	  Cargo Dist Transported after Macroeconomic Feedbacks[Vehicle Type!,Cargo Type]
 	  * Percent of Travel Demand Shifted to Other Modes or Eliminated This Year[Cargo Type\
 		,Vehicle Type!]
-	  * RTMF Recipient Transportation Mode Fractions[Cargo Type,Vehicle Type!,Target Vehicle Type\
+	  * RTMF Recipient Transportation Mode Fractions[Cargo Type,Vehicle Type!,AA Vehicle Type\
 		]
 	)
 	~	thing*miles
@@ -25026,14 +25026,14 @@ RQSD RPS Qualifying Source Definitions[Electricity Source]=
 	~	Dmnl
 	~		|
 
-RTMF Recipient Transportation Mode Fractions[passenger,Vehicle Type,Target Vehicle Type\
+RTMF Recipient Transportation Mode Fractions[passenger,Vehicle Type,AA Vehicle Type\
 		]=
 	GET DIRECT CONSTANTS(
 	   'InputData/trans/RTMF/RTMF-passengers.csv',
 	   ',',
 	   'B2'
 	) ~~|
-RTMF Recipient Transportation Mode Fractions[freight,Vehicle Type,Target Vehicle Type\
+RTMF Recipient Transportation Mode Fractions[freight,Vehicle Type,AA Vehicle Type\
 		]=
 	GET DIRECT CONSTANTS(
 	   'InputData/trans/RTMF/RTMF-freight.csv',
@@ -25918,7 +25918,7 @@ Target ISIC Code:
 	~	
 	~		|
 
-Target Vehicle Type<->
+AA Vehicle Type<->
 	Vehicle Type
 	~	
 	~		|

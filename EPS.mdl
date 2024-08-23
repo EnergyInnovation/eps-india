@@ -23819,7 +23819,7 @@ primary fuel:
 	~	
 	~		|
 
-Priority Profile:
+ZZ Priority Profile:
 	ptype, ppriority, pwidth, pextra
 	~	
 	~	See the "Allocation Functions" section of the Vensim Reference Manual and \

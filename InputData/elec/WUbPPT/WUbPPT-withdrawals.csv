@@ -1,25 +1,25 @@
 Unit: liters/(MW*hour),Water demand
-hard coal,54578
-natural gas steam turbine,30331
-natural gas combined cycle,4160
-nuclear,63250
+hard coal,18214
+natural gas steam turbine,1354
+natural gas combined cycle,1354
+nuclear,88728
 hydro,0
 onshore wind,0
-solar PV,20
-solar thermal,2104
-biomass,13891
-geothermal,4930
-petroleum,23313
-natural gas peaker,30331
-lignite,54578
+solar PV,80
+solar thermal,2680
+biomass,3164
+geothermal,0
+petroleum,1601
+natural gas peaker,1354
+lignite,18214
 offshore wind,0
-crude oil,23313
-heavy or residual fuel oil,23313
-municipal solid waste,13891
-hard coal w CCS,54578
-natural gas combined cycle w CCS,4160
-biomass w CCS,13891
-lignite w CCS,54578
-small modular reactor,63250
-hydrogen combustion turbine,30331
-hydrogen combined cycle,4160
+crude oil,1601
+heavy or residual fuel oil,1601
+municipal solid waste,3164
+hard coal w CCS,18214
+natural gas combined cycle w CCS,1354
+biomass w CCS,3164
+lignite w CCS,18214
+small modular reactor,88728
+hydrogen combustion turbine,1354
+hydrogen combined cycle,1354

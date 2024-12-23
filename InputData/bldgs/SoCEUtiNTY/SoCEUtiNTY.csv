@@ -1,7 +1,8 @@
 Share of New Components Energy Use (dimensionless),urban residential,rural residential,commercial
-heating,0.0526,0.053,0.0526
-cooling and ventilation,0.0632,0.0632,0.0632
-envelope,0.0,0.0,0.0
-lighting,0.1095,0.1095,0.1095
-appliances,0.071,0.071,0.071
-other component,0.066,0.066,0.066
+heating,0.0526,0.0526,0.0526
+cooling and ventilation,0.0625,0.0625,0.0625
+envelope,0.0000,0.0000,0.0000
+lighting,0.1111,0.1111,0.1111
+appliances,0.0714,0.0714,0.0714
+other component,0.0667,0.0667,0.0667
+,,,

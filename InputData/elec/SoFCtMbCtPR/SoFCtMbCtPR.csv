@@ -1,25 +1,26 @@
 Unit: dimensionless (% of costs),Share of costs covered to be deemed profitable
-hard coal,2.5
-natural gas steam turbine,1
-natural gas combustion turbine,1
-nuclear,1
-hydro,1
-onshore wind,1
-solar pv,1
-solar thermal,1
-biomass,1
-geothermal,1
-petroleum,1
-natural gas peaker,1
-lignite,1
-offshore wind,1
-crude oil,1
-heavy or residual fuel oil,1
-municipal solid waste,1
-hard coal w CCS,1
-natural gas combined cycle w CCS,1
-biomass w CCS,1
-lignite w CCS,1
-small modular reactor,1
-hydrogen combustion turbine,1
-hydrogen combined cycle,1
+hard coal,2.50
+natural gas steam turbine,1.00
+natural gas combustion turbine,1.00
+nuclear,1.00
+hydro,1.00
+onshore wind,1.00
+solar pv,1.00
+solar thermal,1.00
+biomass,1.00
+geothermal,1.00
+petroleum,1.00
+natural gas peaker,1.00
+lignite,1.00
+offshore wind,1.00
+crude oil,1.00
+heavy or residual fuel oil,1.00
+municipal solid waste,1.00
+hard coal w CCS,1.00
+natural gas combined cycle w CCS,1.00
+biomass w CCS,1.00
+lignite w CCS,1.00
+small modular reactor,1.00
+hydrogen combustion turbine,1.00
+hydrogen combined cycle,1.00
+,
